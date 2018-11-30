@@ -1,0 +1,73 @@
+@font-face{
+  font-family: "lth1";
+  src: url("./font/PALSU___.TTF");
+}
+@font-face{
+  font-family: "ltp";
+  src: url("./font/MEEGOREN.TTF");
+}
+hr{
+  width: 90%;
+}
+body{
+  margin: 0;
+  background-color: rgb(170, 99, 57);
+}
+footer{
+  background-color: rgb(128, 61, 22);
+  padding: 2%;
+  margin-top: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+nav h1{
+  font-family: lth1;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 18px;
+}
+footer a{
+   color: white;
+}
+footer tr{
+  color: black
+}
+article{
+  padding-left: 20px;
+  padding-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+article h1{
+  font-family: lth1;
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+article h5{
+  font-family: lth1;
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+article p{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+.perros{
+  width: 70%;
+  border-radius: 10%;
+  box-shadow: 5px 5px rgb(85, 84, 84);
+  border: solid 3px rgb(255, 115, 0);
+}
+.L1{
+  width: 50%;
+}
+.R1{
+  width: 40%;
+  text-align: center
+}

@@ -1,0 +1,38 @@
+header ul li{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 48px;
+    border-bottom: 2px solid;
+}
+header ul li a{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 35px;
+}
+#logo{
+    padding-left: 20%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 97%;
+}
+ul{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.slideshow-container{
+    display: none;
+}
+.L1{
+    width: 100%;
+}
+.L1 h1{
+    font-size: 60px;
+    margin-top: 0;
+    padding-top: 0; 
+}
+.R1{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}

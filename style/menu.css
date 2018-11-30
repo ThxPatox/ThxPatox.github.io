@@ -1,0 +1,37 @@
+@font-face{
+  font-family: "ltul";
+  src: url("./font/orange juice 2.0.ttf");
+}
+header{
+  background-color: #333;
+}
+#logo{
+  margin-left: 15px;
+  margin-right: 20px;
+  padding-top: 3px;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(85, 32, 0);
+  font-family: ltul;
+}
+header li {
+  float:left;
+}
+header li a {
+  display: block;
+  color: rgb(255, 202, 170);
+  text-align: center;
+  font-size: 38px;
+  padding: 4px 6px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+header li a:hover {
+  background-color: rgb(94, 27, 27);
+  color: rgb(255, 94, 0);
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mis Perris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/carrusel.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/menu.css" />
+    <link rel="stylesheet" media="screen and (max-width:500px)" href="style/celindex.css">
+    <script src="js/carrusel.js"></script>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body onload="showSlides(1)">
+    
+    <header>
+      <ul>
+          <li><img id="logo" src="img/logo.png" alt="logo mis perris"></li>
+          <li><a href="index.html">~Inicio~</a></li>
+          <li><a href="Galeria.html">~Galeria~</a></li>
+          <li><a href="Registro.html">~Registro~</a></li>
+      </ul>
+    </header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="img/img1.jpg" style="width:100%" alt="">
+        </div>
+        <div class="mySlides fade">
+          <img src="img/img2.jpg" style="width:100%" alt="">
+        </div>
+        <div class="mySlides fade">
+          <img src="img/img3.jpg" style="width:100%" alt="">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <article>
+      <div class="L1">
+        <h1>Mis-Perris</h1>
+        <p><b>Nuestra misión es frenar el abandono de mascotas a través de la educación de tenencia responsable, el rescate, rehabilitación 
+          y adopción de perros y gatos y la difusión de nuestro mensaje del bien animal.</b></p>
+        <p><b>Somos un grupo de personas profesionales que dedicamos nuestro tiempo libre a un deseo que nos mueve profundamente y que 
+          es ayudar a la mayor cantidad de perros y gatos posibles. Queremos terminar con el abandono animal y educar a la población en la 
+          tenencia responsable.</b></p>
+      </div>
+      <div class="R1">
+        <img id="perros" src="img/perros.jpg" srcset="img/perrossmall.jpg 480w " sizes="(max-width: 480px) 440px" alt="">
+        
+      </div>
+    </article>
+    
+
+    <footer>
+        <table>
+            <tr>
+                <td>&#9993; <b>Email</b></td>
+                <td>
+                    <a href="mailto:HelpDog@gmail.com">
+                            HelpDog@gmail.com
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>&#9742; <b>Telefono</b></td>
+                <td>
+                    <a href="tel:+56920202020">
+                            +569 2020 2020
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <b>&copy; Todos los derechos reservados.</b> 
+                </td>
+            </tr>
+        </table>
+    </footer> 
+    <script src="js/app.js"></script>
+</body>
+</html>

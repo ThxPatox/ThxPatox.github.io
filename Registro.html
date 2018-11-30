@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mis-Perris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main2.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/menu.css" />
+    <link rel="stylesheet" media="screen and (max-width:500px)" href="style/celregi.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><img id="logo" src="img/logo.png" alt="logo mis perris"></li>
+            <li><a href="index.html">~Inicio~</a></li>
+            <li><a href="Galeria.html">~Galeria~</a></li>
+            <li><a href="Registro.html">~Registro~</a></li>
+        </ul>
+    </header>
+    <nav>
+        <h1>-Registro-</h1>
+    </nav>
+    <article>
+        <hr>
+        
+        <form onsubmit="validate()" action="#">
+        <h5>Ingrese-Sus-Datos:</h5>
+            <label for="txtCorreo"><b>Correo_Electronico:</b></label>
+            <input type="email" id="txtCorreo" placeholder="Ingrese Correo Electronico" required/>
+            <br>
+            <label for="txtRut"><b>Rut:</b></label>
+            <input id="txtRut" type="text"
+            onkeyup="modifyText()" placeholder="Ingrese Rut" required />
+            <br>
+            <label for="txtName"><b>Nombre:</b></label>
+			<input type="text" id="txtName" onkeypress="return soloLetras(event)"
+			placeholder="Ingrese Nombre" required/>
+			<span id="nameValidator" style="color:red"></span>
+            <br>
+            <label for="txtDate"><b>Fecha_Nacimiento:</b></label>
+			<input type="date" id="txtDate" required
+            max="2000-12-31" />
+            <br />
+			<label for="txtnumero"><b>Telefono:</b> </label>
+            <input type="number" id="txtnumero" onkeypress="return solonumeros(event)"
+            min="10000000" max="999999999" placeholder="Ingrese Numero Telefonico" required/>
+            
+            <br>
+            <label for="txtRegion"><b>Region:</b></label>
+            <select id="txtRegion" oninput="selectCity()"> 
+            </select>
+            <br />
+            <label for="txtCity"><b>Ciudad:</b></label>
+            <select id="txtCity">
+            </select>
+            <br>
+            <label id="txttipo"><b>Tipo_Vivienda:</b></label>
+            <select name="txttipo">
+                    <option value="1">Casa Patio Grande</option>
+                    <option value="2">Casa Patio Pequeño</option>
+                    <option value="3">Casa Sin Patio</option>
+                    <option value="4">Departamento</option>
+            </select>
+
+
+
+            <br>
+            <button>Registrar</button>
+        </form>
+    </article>
+    <footer>
+        <table>
+            <tr>
+                <td>&#9993; <b>Email</b></td>
+                <td>
+                    <a href="mailto:HelpDog@gmail.com">
+                            HelpDog@gmail.com
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>&#9742; <b>Telefono</b></td>
+                <td>
+                    <a href="tel:+56920202020">
+                            +569 2020 2020
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <b>&copy; Todos los derechos reservados.</b> 
+                </td>
+            </tr>
+        </table>
+    </footer> 
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

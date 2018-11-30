@@ -1,0 +1,57 @@
+@font-face{
+  font-family: "lth1";
+  src: url("./font/PALSU___.TTF");
+}
+@font-face{
+  font-family: "ltp";
+  src: url("./font/MEEGOREN.TTF");
+}
+body{
+  margin: 0;
+  background-color: rgb(170, 99, 57);
+}
+footer{
+  background-color: rgb(128, 61, 22);
+  padding: 2%;
+  margin-top: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+footer a{
+   color: white;
+}
+footer tr{
+  color: black
+}
+article{
+  padding-left: 20px;
+  padding-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+article h1{
+  font-family: lth1;
+  font-size: 80px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+article p{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px
+}
+#perros{
+  width: 80%;
+  border-radius: 10%;
+  box-shadow: 5px 5px rgb(85, 84, 84);
+  border: solid 3px rgb(255, 115, 0);
+}
+.L1{
+  width: 50%;
+}
+.R1{
+  width: 50%;
+  padding: 50px 50px;
+}

@@ -1,0 +1,31 @@
+header ul li{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 48px;
+    border-bottom: 2px solid;
+}
+header ul li a{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 35px;
+}
+#logo{
+    padding-left: 16%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+nav h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.L1{
+    width: 100%
+}
+.R1{
+    text-align: center;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
